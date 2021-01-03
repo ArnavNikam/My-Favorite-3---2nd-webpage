@@ -1,0 +1,82 @@
+body{
+    text-align: center
+}
+
+.IOL{
+    height: 250px;
+    width: 300px;
+}
+
+#manu{
+    position: fixed;
+    top: 0px;
+    font-family: sans-serif;
+    cursor: pointer;
+    z-index: 10;
+    margin-top: 0px;
+    background: black;
+    text-align: center;
+    width: 100%;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.list{
+    color: white;
+    padding-left: 35px;
+    padding-right: 35px;
+    font-size: 20px;
+    font-family: fantasy; 
+    display: inline;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.list:hover{
+    background-color: lightblue;
+}
+
+.line{
+    height: 6px;
+    background-color: black;
+    width: 70px;
+    margin: 8px auto;
+}
+
+#B IOL{
+   height: 250;
+   width: 400px;
+}
+
+.IOB{
+    height: 500px;
+    width: 300px;
+}
+
+#Home{
+    position: absolute;
+    height: 100px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0.8;
+    background: linear-gradient(lightblue 0%, blue 100%);
+    display: table;
+    width: 100%;
+    height: 100%;
+    z-index: 9;
+}
+
+li a{
+    color: white;
+    text-decoration: none;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+#lego h1{
+   padding-top: 50px; 
+}
